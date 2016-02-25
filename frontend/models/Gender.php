@@ -34,11 +34,10 @@ class Gender extends \yii\db\ActiveRecord
     /**
      * @inheritdoc
      */
-    public function attributeLabels()
-    {
-        return [
-            'id' => Yii::t('app', 'ID'),
-            'gender_name' => Yii::t('app', 'Gender Name'),
-        ];
-    }
+    public function attributeLabels() {
+			return [
+					'id' => 'ID',
+					'gender_name' => 'Gender',
+					];
+			}
 }
