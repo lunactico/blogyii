@@ -6389,3 +6389,177 @@ $_SERVER = [
     'REQUEST_TIME_FLOAT' => 1456371965.689
     'REQUEST_TIME' => 1456371965
 ]
+2016-02-25 13:35:58 [::1][1][gephqkfoc1m67aj7l9p1p3hqo7][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "apple-touch-icon-precomposed.png".' in /Applications/XAMPP/xamppfiles/htdocs/blogyii/vendor/yiisoft/yii2/base/Module.php:460
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/blogyii/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('apple-touch-ico...', Array)
+#1 /Applications/XAMPP/xamppfiles/htdocs/blogyii/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /Applications/XAMPP/xamppfiles/htdocs/blogyii/index.php(18): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Página no encontrada.' in /Applications/XAMPP/xamppfiles/htdocs/blogyii/vendor/yiisoft/yii2/web/Application.php:96
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/blogyii/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /Applications/XAMPP/xamppfiles/htdocs/blogyii/index.php(18): yii\base\Application->run()
+#2 {main}
+2016-02-25 13:35:58 [::1][1][gephqkfoc1m67aj7l9p1p3hqo7][info][application] $_COOKIE = [
+    '_frontendCsrf' => 'd855359e8e7aa3749ae60a4a5cdb087e3b651437c777071732ec74b1c4fccfa6a:2:{i:0;s:13:\"_frontendCsrf\";i:1;s:32:\"DLsp0px6feB252OovpklwiwA6UFmW5Ae\";}'
+    '_frontendSessionId' => 'gephqkfoc1m67aj7l9p1p3hqo7'
+    '_frontendUser' => '20c1c8af64349c60244f3d381c502be2a7ac6b7d3b4eefd01512abdc6ce54efaa:2:{i:0;s:13:\"_frontendUser\";i:1;s:46:\"[1,\"vWvW7rPF3BBY-3bCkYKt7rVP5NabjKmH\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+]
+
+$_SERVER = [
+    'REDIRECT_UNIQUE_ID' => 'Vs71LsCoAhsAAAJ7X34AAAAD'
+    'REDIRECT_STATUS' => '200'
+    'UNIQUE_ID' => 'Vs71LsCoAhsAAAJ7X34AAAAD'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_COOKIE' => '_frontendCsrf=d855359e8e7aa3749ae60a4a5cdb087e3b651437c777071732ec74b1c4fccfa6a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_frontendCsrf%22%3Bi%3A1%3Bs%3A32%3A%22DLsp0px6feB252OovpklwiwA6UFmW5Ae%22%3B%7D; _frontendSessionId=gephqkfoc1m67aj7l9p1p3hqo7; _frontendUser=20c1c8af64349c60244f3d381c502be2a7ac6b7d3b4eefd01512abdc6ce54efaa%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_frontendUser%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22vWvW7rPF3BBY-3bCkYKt7rVP5NabjKmH%22%2C2592000%5D%22%3B%7D'
+    'HTTP_USER_AGENT' => 'Coda/6979 CFNetwork/760.2.6 Darwin/15.3.0 (x86_64)'
+    'HTTP_ACCEPT_LANGUAGE' => 'es-es'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'DYLD_LIBRARY_PATH' => '/Applications/XAMPP/xamppfiles/lib'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.16 (Unix) OpenSSL/1.0.1p PHP/5.6.12 mod_perl/2.0.8-dev Perl/v5.16.3'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => '/Applications/XAMPP/xamppfiles/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/Applications/XAMPP/xamppfiles/htdocs'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/Applications/XAMPP/xamppfiles/htdocs/blogyii/index.php'
+    'REMOTE_PORT' => '49338'
+    'REDIRECT_URL' => '/blogyii/apple-touch-icon-precomposed.png'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/blogyii/apple-touch-icon-precomposed.png'
+    'SCRIPT_NAME' => '/blogyii/index.php'
+    'PHP_SELF' => '/blogyii/index.php'
+    'REQUEST_TIME_FLOAT' => 1456403758.468
+    'REQUEST_TIME' => 1456403758
+]
+2016-02-25 13:35:58 [::1][1][gephqkfoc1m67aj7l9p1p3hqo7][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "apple-touch-icon.png".' in /Applications/XAMPP/xamppfiles/htdocs/blogyii/vendor/yiisoft/yii2/base/Module.php:460
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/blogyii/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('apple-touch-ico...', Array)
+#1 /Applications/XAMPP/xamppfiles/htdocs/blogyii/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /Applications/XAMPP/xamppfiles/htdocs/blogyii/index.php(18): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Página no encontrada.' in /Applications/XAMPP/xamppfiles/htdocs/blogyii/vendor/yiisoft/yii2/web/Application.php:96
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/blogyii/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /Applications/XAMPP/xamppfiles/htdocs/blogyii/index.php(18): yii\base\Application->run()
+#2 {main}
+2016-02-25 13:35:58 [::1][1][gephqkfoc1m67aj7l9p1p3hqo7][info][application] $_COOKIE = [
+    '_frontendCsrf' => 'd855359e8e7aa3749ae60a4a5cdb087e3b651437c777071732ec74b1c4fccfa6a:2:{i:0;s:13:\"_frontendCsrf\";i:1;s:32:\"DLsp0px6feB252OovpklwiwA6UFmW5Ae\";}'
+    '_frontendSessionId' => 'gephqkfoc1m67aj7l9p1p3hqo7'
+    '_frontendUser' => '20c1c8af64349c60244f3d381c502be2a7ac6b7d3b4eefd01512abdc6ce54efaa:2:{i:0;s:13:\"_frontendUser\";i:1;s:46:\"[1,\"vWvW7rPF3BBY-3bCkYKt7rVP5NabjKmH\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+]
+
+$_SERVER = [
+    'REDIRECT_UNIQUE_ID' => 'Vs71LsCoAhsAAAJ7X38AAAAD'
+    'REDIRECT_STATUS' => '200'
+    'UNIQUE_ID' => 'Vs71LsCoAhsAAAJ7X38AAAAD'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_COOKIE' => '_frontendCsrf=d855359e8e7aa3749ae60a4a5cdb087e3b651437c777071732ec74b1c4fccfa6a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_frontendCsrf%22%3Bi%3A1%3Bs%3A32%3A%22DLsp0px6feB252OovpklwiwA6UFmW5Ae%22%3B%7D; _frontendSessionId=gephqkfoc1m67aj7l9p1p3hqo7; _frontendUser=20c1c8af64349c60244f3d381c502be2a7ac6b7d3b4eefd01512abdc6ce54efaa%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_frontendUser%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22vWvW7rPF3BBY-3bCkYKt7rVP5NabjKmH%22%2C2592000%5D%22%3B%7D'
+    'HTTP_USER_AGENT' => 'Coda/6979 CFNetwork/760.2.6 Darwin/15.3.0 (x86_64)'
+    'HTTP_ACCEPT_LANGUAGE' => 'es-es'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'DYLD_LIBRARY_PATH' => '/Applications/XAMPP/xamppfiles/lib'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.16 (Unix) OpenSSL/1.0.1p PHP/5.6.12 mod_perl/2.0.8-dev Perl/v5.16.3'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => '/Applications/XAMPP/xamppfiles/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/Applications/XAMPP/xamppfiles/htdocs'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/Applications/XAMPP/xamppfiles/htdocs/blogyii/index.php'
+    'REMOTE_PORT' => '49338'
+    'REDIRECT_URL' => '/blogyii/apple-touch-icon.png'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/blogyii/apple-touch-icon.png'
+    'SCRIPT_NAME' => '/blogyii/index.php'
+    'PHP_SELF' => '/blogyii/index.php'
+    'REQUEST_TIME_FLOAT' => 1456403758.549
+    'REQUEST_TIME' => 1456403758
+]
+2016-02-25 13:39:51 [::1][1][-][error][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'app' does not exist: /Applications/XAMPP/xamppfiles/htdocs/blogyii/frontend/messages/es-MX/app.php Fallback file does not exist as well: /Applications/XAMPP/xamppfiles/htdocs/blogyii/frontend/messages/es/app.php
+    in /Applications/XAMPP/xamppfiles/htdocs/blogyii/frontend/views/profile/view.php:29
+    in /Applications/XAMPP/xamppfiles/htdocs/blogyii/frontend/controllers/ProfileController.php:52
+2016-02-25 13:39:51 [::1][1][-][info][application] $_COOKIE = [
+    '_frontendCsrf' => 'ca52e23fcbbb30fe08b5b77f9bedb105bcc9c9f26e8d2d4422d77e157930c26da:2:{i:0;s:13:\"_frontendCsrf\";i:1;s:32:\"UBhzdp_Q1FRFYdhgqrMEZRduWCbyLVND\";}'
+    '_frontendSessionId' => 'je7agmrbu001jsfmk1hte2vqb7'
+    '_frontendUser' => '20c1c8af64349c60244f3d381c502be2a7ac6b7d3b4eefd01512abdc6ce54efaa:2:{i:0;s:13:\"_frontendUser\";i:1;s:46:\"[1,\"vWvW7rPF3BBY-3bCkYKt7rVP5NabjKmH\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+    '__captcha/site/captcha' => 'ltzowgc'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'REDIRECT_UNIQUE_ID' => 'Vs72F8CoAhsAAASh4s4AAAAM'
+    'REDIRECT_STATUS' => '200'
+    'UNIQUE_ID' => 'Vs72F8CoAhsAAASh4s4AAAAM'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.116 Safari/537.36 OPR/35.0.2066.82'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, lzma, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'es-ES,es;q=0.8'
+    'HTTP_COOKIE' => '_frontendCsrf=ca52e23fcbbb30fe08b5b77f9bedb105bcc9c9f26e8d2d4422d77e157930c26da%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_frontendCsrf%22%3Bi%3A1%3Bs%3A32%3A%22UBhzdp_Q1FRFYdhgqrMEZRduWCbyLVND%22%3B%7D; _frontendSessionId=je7agmrbu001jsfmk1hte2vqb7; _frontendUser=20c1c8af64349c60244f3d381c502be2a7ac6b7d3b4eefd01512abdc6ce54efaa%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_frontendUser%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22vWvW7rPF3BBY-3bCkYKt7rVP5NabjKmH%22%2C2592000%5D%22%3B%7D'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'DYLD_LIBRARY_PATH' => '/Applications/XAMPP/xamppfiles/lib'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.16 (Unix) OpenSSL/1.0.1p PHP/5.6.12 mod_perl/2.0.8-dev Perl/v5.16.3'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => '/Applications/XAMPP/xamppfiles/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/Applications/XAMPP/xamppfiles/htdocs'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/Applications/XAMPP/xamppfiles/htdocs/blogyii/index.php'
+    'REMOTE_PORT' => '49364'
+    'REDIRECT_URL' => '/blogyii/profile'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/blogyii/profile'
+    'SCRIPT_NAME' => '/blogyii/index.php'
+    'PHP_SELF' => '/blogyii/index.php'
+    'REQUEST_TIME_FLOAT' => 1456403991.511
+    'REQUEST_TIME' => 1456403991
+]

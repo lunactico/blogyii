@@ -30,13 +30,28 @@ class ProfileController extends Controller
 							'actions' => ['index', 'view','create', 'update', 'delete'], 'allow' => true,
 							'roles' => ['@'],
 							],
-							], ],
-							       'verbs' => [
-							           'class' => VerbFilter::className(),
-							           'actions' => [
-							               'delete' => ['post'],
-							           ],
-							], ];
+						], 
+					],
+					'access2' => [
+						'class' => \yii\filters\AccessControl::className(),
+						'only' => ['index', 'view','create', 'update', 'delete'],
+						'rules' => [
+							 [
+								'actions' => ['index', 'view','create', 'update', 'delete'],
+								'allow' => true,
+								'roles' => ['@'],
+								'matchCallback' => function ($rule, $action) {
+										return PermissionHelpers::requireStatus('Active'); }
+										],
+									],
+								],
+									'verbs' => [
+									        'class' => VerbFilter::className(),
+									        'actions' => [
+									           'delete' => ['post'],
+									        ],
+										],
+								 ];
 	}
 
 
@@ -102,22 +117,22 @@ class ProfileController extends Controller
 		 */
 		 public function actionUpdate() 
 		 {
-		 		if($model = Profile::find()->where(['user_id' => 
-		 			Yii::$app->user->identity->id])->one()) {
-			 			
-		 			if ($model->load(Yii::$app->request->post()) && $model->save()) { 
-			 			return $this->redirect(['view']);
-			 			
-			 			} else {
-			 			
-			 			return $this->render('update', [ 
-			 					'model' => $model,
-			 		]); 
-			 	}
-					} else {
-						
-						throw new NotFoundHttpException('No Such Profile.');
-				}
+		 		if ($model = Profile::find()->where(['user_id' =>
+		 		
+		 		Yii::$app->user->identity->id])->one()) {
+		 		
+		 		if ($model->load(Yii::$app->request->post()) && $model->save()) { 
+			 		
+			 		return $this->redirect(['view', 'id' => $model->id]);
+			 		
+				} else {
+				
+				return $this->render('update', [ 'model' => $model,
+				]); }
+		} else {
+			
+				throw new NotFoundHttpException('No Such Profile.');
+		}
 				
  }
 
