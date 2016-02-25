@@ -6563,3 +6563,304 @@ $_SERVER = [
     'REQUEST_TIME_FLOAT' => 1456403991.511
     'REQUEST_TIME' => 1456403991
 ]
+2016-02-25 14:38:46 [::1][1][-][error][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'app' does not exist: /Applications/XAMPP/xamppfiles/htdocs/blogyii/frontend/messages/es-MX/app.php Fallback file does not exist as well: /Applications/XAMPP/xamppfiles/htdocs/blogyii/frontend/messages/es/app.php
+    in /Applications/XAMPP/xamppfiles/htdocs/blogyii/frontend/views/profile/view.php:29
+    in /Applications/XAMPP/xamppfiles/htdocs/blogyii/frontend/controllers/ProfileController.php:67
+2016-02-25 14:38:46 [::1][1][-][info][application] $_COOKIE = [
+    '_frontendCsrf' => 'ca52e23fcbbb30fe08b5b77f9bedb105bcc9c9f26e8d2d4422d77e157930c26da:2:{i:0;s:13:\"_frontendCsrf\";i:1;s:32:\"UBhzdp_Q1FRFYdhgqrMEZRduWCbyLVND\";}'
+    '_frontendSessionId' => 'je7agmrbu001jsfmk1hte2vqb7'
+    '_frontendUser' => '20c1c8af64349c60244f3d381c502be2a7ac6b7d3b4eefd01512abdc6ce54efaa:2:{i:0;s:13:\"_frontendUser\";i:1;s:46:\"[1,\"vWvW7rPF3BBY-3bCkYKt7rVP5NabjKmH\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+    '__captcha/site/captcha' => 'ltzowgc'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'REDIRECT_UNIQUE_ID' => 'Vs8D5sCoAhsAAAQtvocAAAAF'
+    'REDIRECT_STATUS' => '200'
+    'UNIQUE_ID' => 'Vs8D5sCoAhsAAAQtvocAAAAF'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.116 Safari/537.36 OPR/35.0.2066.82'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, lzma, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'es-ES,es;q=0.8'
+    'HTTP_COOKIE' => '_frontendCsrf=ca52e23fcbbb30fe08b5b77f9bedb105bcc9c9f26e8d2d4422d77e157930c26da%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_frontendCsrf%22%3Bi%3A1%3Bs%3A32%3A%22UBhzdp_Q1FRFYdhgqrMEZRduWCbyLVND%22%3B%7D; _frontendSessionId=je7agmrbu001jsfmk1hte2vqb7; _frontendUser=20c1c8af64349c60244f3d381c502be2a7ac6b7d3b4eefd01512abdc6ce54efaa%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_frontendUser%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22vWvW7rPF3BBY-3bCkYKt7rVP5NabjKmH%22%2C2592000%5D%22%3B%7D'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'DYLD_LIBRARY_PATH' => '/Applications/XAMPP/xamppfiles/lib'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.16 (Unix) OpenSSL/1.0.1p PHP/5.6.12 mod_perl/2.0.8-dev Perl/v5.16.3'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => '/Applications/XAMPP/xamppfiles/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/Applications/XAMPP/xamppfiles/htdocs'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/Applications/XAMPP/xamppfiles/htdocs/blogyii/index.php'
+    'REMOTE_PORT' => '49968'
+    'REDIRECT_URL' => '/blogyii/profile'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/blogyii/profile'
+    'SCRIPT_NAME' => '/blogyii/index.php'
+    'PHP_SELF' => '/blogyii/index.php'
+    'REQUEST_TIME_FLOAT' => 1456407526.861
+    'REQUEST_TIME' => 1456407526
+]
+2016-02-25 14:38:54 [::1][1][je7agmrbu001jsfmk1hte2vqb7][error][yii\base\ErrorException:8] exception 'yii\base\ErrorException' with message 'Undefined variable: form' in /Applications/XAMPP/xamppfiles/htdocs/blogyii/frontend/views/profile/_form.php:14
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/blogyii/frontend/views/profile/_form.php(14): yii\base\ErrorHandler->handleError(8, 'Undefined varia...', '/Applications/X...', 14, Array)
+#1 /Applications/XAMPP/xamppfiles/htdocs/blogyii/vendor/yiisoft/yii2/base/View.php(325): require('/Applications/X...')
+#2 /Applications/XAMPP/xamppfiles/htdocs/blogyii/vendor/yiisoft/yii2/base/View.php(247): yii\base\View->renderPhpFile('/Applications/X...', Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/blogyii/vendor/yiisoft/yii2/base/View.php(149): yii\base\View->renderFile('/Applications/X...', Array, NULL)
+#4 /Applications/XAMPP/xamppfiles/htdocs/blogyii/frontend/views/profile/update.php(18): yii\base\View->render('_form', Array)
+#5 /Applications/XAMPP/xamppfiles/htdocs/blogyii/vendor/yiisoft/yii2/base/View.php(325): require('/Applications/X...')
+#6 /Applications/XAMPP/xamppfiles/htdocs/blogyii/vendor/yiisoft/yii2/base/View.php(247): yii\base\View->renderPhpFile('/Applications/X...', Array)
+#7 /Applications/XAMPP/xamppfiles/htdocs/blogyii/vendor/yiisoft/yii2/base/View.php(149): yii\base\View->renderFile('/Applications/X...', Array, Object(frontend\controllers\ProfileController))
+#8 /Applications/XAMPP/xamppfiles/htdocs/blogyii/vendor/yiisoft/yii2/base/Controller.php(377): yii\base\View->render('update', Array, Object(frontend\controllers\ProfileController))
+#9 /Applications/XAMPP/xamppfiles/htdocs/blogyii/frontend/controllers/ProfileController.php(131): yii\base\Controller->render('update', Array)
+#10 [internal function]: frontend\controllers\ProfileController->actionUpdate()
+#11 /Applications/XAMPP/xamppfiles/htdocs/blogyii/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#12 /Applications/XAMPP/xamppfiles/htdocs/blogyii/vendor/yiisoft/yii2/base/Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#13 /Applications/XAMPP/xamppfiles/htdocs/blogyii/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('update', Array)
+#14 /Applications/XAMPP/xamppfiles/htdocs/blogyii/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('profile/update', Array)
+#15 /Applications/XAMPP/xamppfiles/htdocs/blogyii/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#16 /Applications/XAMPP/xamppfiles/htdocs/blogyii/index.php(18): yii\base\Application->run()
+#17 {main}
+2016-02-25 14:38:54 [::1][1][je7agmrbu001jsfmk1hte2vqb7][info][application] $_GET = [
+    'id' => '1'
+]
+
+$_COOKIE = [
+    '_frontendCsrf' => 'ca52e23fcbbb30fe08b5b77f9bedb105bcc9c9f26e8d2d4422d77e157930c26da:2:{i:0;s:13:\"_frontendCsrf\";i:1;s:32:\"UBhzdp_Q1FRFYdhgqrMEZRduWCbyLVND\";}'
+    '_frontendSessionId' => 'je7agmrbu001jsfmk1hte2vqb7'
+    '_frontendUser' => '20c1c8af64349c60244f3d381c502be2a7ac6b7d3b4eefd01512abdc6ce54efaa:2:{i:0;s:13:\"_frontendUser\";i:1;s:46:\"[1,\"vWvW7rPF3BBY-3bCkYKt7rVP5NabjKmH\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+    '__captcha/site/captcha' => 'ltzowgc'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'REDIRECT_UNIQUE_ID' => 'Vs8D7sCoAhsAAAJ57MMAAAAC'
+    'REDIRECT_STATUS' => '200'
+    'UNIQUE_ID' => 'Vs8D7sCoAhsAAAJ57MMAAAAC'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.116 Safari/537.36 OPR/35.0.2066.82'
+    'HTTP_REFERER' => 'http://localhost/blogyii/profile'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, lzma, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'es-ES,es;q=0.8'
+    'HTTP_COOKIE' => '_frontendCsrf=ca52e23fcbbb30fe08b5b77f9bedb105bcc9c9f26e8d2d4422d77e157930c26da%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_frontendCsrf%22%3Bi%3A1%3Bs%3A32%3A%22UBhzdp_Q1FRFYdhgqrMEZRduWCbyLVND%22%3B%7D; _frontendSessionId=je7agmrbu001jsfmk1hte2vqb7; _frontendUser=20c1c8af64349c60244f3d381c502be2a7ac6b7d3b4eefd01512abdc6ce54efaa%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_frontendUser%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22vWvW7rPF3BBY-3bCkYKt7rVP5NabjKmH%22%2C2592000%5D%22%3B%7D'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'DYLD_LIBRARY_PATH' => '/Applications/XAMPP/xamppfiles/lib'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.16 (Unix) OpenSSL/1.0.1p PHP/5.6.12 mod_perl/2.0.8-dev Perl/v5.16.3'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => '/Applications/XAMPP/xamppfiles/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/Applications/XAMPP/xamppfiles/htdocs'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/Applications/XAMPP/xamppfiles/htdocs/blogyii/index.php'
+    'REMOTE_PORT' => '49970'
+    'REDIRECT_QUERY_STRING' => 'id=1'
+    'REDIRECT_URL' => '/blogyii/profile/update'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'id=1'
+    'REQUEST_URI' => '/blogyii/profile/update?id=1'
+    'SCRIPT_NAME' => '/blogyii/index.php'
+    'PHP_SELF' => '/blogyii/index.php'
+    'REQUEST_TIME_FLOAT' => 1456407534.908
+    'REQUEST_TIME' => 1456407534
+]
+2016-02-25 14:46:31 [::1][1][-][error][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'app' does not exist: /Applications/XAMPP/xamppfiles/htdocs/blogyii/frontend/messages/es-MX/app.php Fallback file does not exist as well: /Applications/XAMPP/xamppfiles/htdocs/blogyii/frontend/messages/es/app.php
+    in /Applications/XAMPP/xamppfiles/htdocs/blogyii/frontend/views/profile/view.php:29
+    in /Applications/XAMPP/xamppfiles/htdocs/blogyii/frontend/controllers/ProfileController.php:67
+2016-02-25 14:46:30 [::1][1][-][info][application] $_COOKIE = [
+    '_frontendCsrf' => 'ca52e23fcbbb30fe08b5b77f9bedb105bcc9c9f26e8d2d4422d77e157930c26da:2:{i:0;s:13:\"_frontendCsrf\";i:1;s:32:\"UBhzdp_Q1FRFYdhgqrMEZRduWCbyLVND\";}'
+    '_frontendSessionId' => 'je7agmrbu001jsfmk1hte2vqb7'
+    '_frontendUser' => '20c1c8af64349c60244f3d381c502be2a7ac6b7d3b4eefd01512abdc6ce54efaa:2:{i:0;s:13:\"_frontendUser\";i:1;s:46:\"[1,\"vWvW7rPF3BBY-3bCkYKt7rVP5NabjKmH\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+    '__captcha/site/captcha' => 'ltzowgc'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'REDIRECT_UNIQUE_ID' => 'Vs8FtsCoAhsAAAJ4CnEAAAAB'
+    'REDIRECT_STATUS' => '200'
+    'UNIQUE_ID' => 'Vs8FtsCoAhsAAAJ4CnEAAAAB'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.116 Safari/537.36 OPR/35.0.2066.82'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, lzma, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'es-ES,es;q=0.8'
+    'HTTP_COOKIE' => '_frontendCsrf=ca52e23fcbbb30fe08b5b77f9bedb105bcc9c9f26e8d2d4422d77e157930c26da%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_frontendCsrf%22%3Bi%3A1%3Bs%3A32%3A%22UBhzdp_Q1FRFYdhgqrMEZRduWCbyLVND%22%3B%7D; _frontendSessionId=je7agmrbu001jsfmk1hte2vqb7; _frontendUser=20c1c8af64349c60244f3d381c502be2a7ac6b7d3b4eefd01512abdc6ce54efaa%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_frontendUser%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22vWvW7rPF3BBY-3bCkYKt7rVP5NabjKmH%22%2C2592000%5D%22%3B%7D'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'DYLD_LIBRARY_PATH' => '/Applications/XAMPP/xamppfiles/lib'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.16 (Unix) OpenSSL/1.0.1p PHP/5.6.12 mod_perl/2.0.8-dev Perl/v5.16.3'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => '/Applications/XAMPP/xamppfiles/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/Applications/XAMPP/xamppfiles/htdocs'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/Applications/XAMPP/xamppfiles/htdocs/blogyii/index.php'
+    'REMOTE_PORT' => '50039'
+    'REDIRECT_URL' => '/blogyii/profile'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/blogyii/profile'
+    'SCRIPT_NAME' => '/blogyii/index.php'
+    'PHP_SELF' => '/blogyii/index.php'
+    'REQUEST_TIME_FLOAT' => 1456407990.985
+    'REQUEST_TIME' => 1456407990
+]
+2016-02-25 14:46:32 [::1][1][-][error][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'app' does not exist: /Applications/XAMPP/xamppfiles/htdocs/blogyii/frontend/messages/es-MX/app.php Fallback file does not exist as well: /Applications/XAMPP/xamppfiles/htdocs/blogyii/frontend/messages/es/app.php
+    in /Applications/XAMPP/xamppfiles/htdocs/blogyii/frontend/models/Profile.php:59
+    in /Applications/XAMPP/xamppfiles/htdocs/blogyii/frontend/views/profile/_form.php:17
+    in /Applications/XAMPP/xamppfiles/htdocs/blogyii/frontend/views/profile/update.php:18
+2016-02-25 14:46:32 [::1][1][-][info][application] $_GET = [
+    'id' => '1'
+]
+
+$_COOKIE = [
+    '_frontendCsrf' => 'ca52e23fcbbb30fe08b5b77f9bedb105bcc9c9f26e8d2d4422d77e157930c26da:2:{i:0;s:13:\"_frontendCsrf\";i:1;s:32:\"UBhzdp_Q1FRFYdhgqrMEZRduWCbyLVND\";}'
+    '_frontendSessionId' => 'je7agmrbu001jsfmk1hte2vqb7'
+    '_frontendUser' => '20c1c8af64349c60244f3d381c502be2a7ac6b7d3b4eefd01512abdc6ce54efaa:2:{i:0;s:13:\"_frontendUser\";i:1;s:46:\"[1,\"vWvW7rPF3BBY-3bCkYKt7rVP5NabjKmH\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+    '__captcha/site/captcha' => 'ltzowgc'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'REDIRECT_UNIQUE_ID' => 'Vs8FuMCoAhsAAAJ4CnMAAAAB'
+    'REDIRECT_STATUS' => '200'
+    'UNIQUE_ID' => 'Vs8FuMCoAhsAAAJ4CnMAAAAB'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.116 Safari/537.36 OPR/35.0.2066.82'
+    'HTTP_REFERER' => 'http://localhost/blogyii/profile'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, lzma, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'es-ES,es;q=0.8'
+    'HTTP_COOKIE' => '_frontendCsrf=ca52e23fcbbb30fe08b5b77f9bedb105bcc9c9f26e8d2d4422d77e157930c26da%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_frontendCsrf%22%3Bi%3A1%3Bs%3A32%3A%22UBhzdp_Q1FRFYdhgqrMEZRduWCbyLVND%22%3B%7D; _frontendSessionId=je7agmrbu001jsfmk1hte2vqb7; _frontendUser=20c1c8af64349c60244f3d381c502be2a7ac6b7d3b4eefd01512abdc6ce54efaa%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_frontendUser%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22vWvW7rPF3BBY-3bCkYKt7rVP5NabjKmH%22%2C2592000%5D%22%3B%7D'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'DYLD_LIBRARY_PATH' => '/Applications/XAMPP/xamppfiles/lib'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.16 (Unix) OpenSSL/1.0.1p PHP/5.6.12 mod_perl/2.0.8-dev Perl/v5.16.3'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => '/Applications/XAMPP/xamppfiles/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/Applications/XAMPP/xamppfiles/htdocs'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/Applications/XAMPP/xamppfiles/htdocs/blogyii/index.php'
+    'REMOTE_PORT' => '50039'
+    'REDIRECT_QUERY_STRING' => 'id=1'
+    'REDIRECT_URL' => '/blogyii/profile/update'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'id=1'
+    'REQUEST_URI' => '/blogyii/profile/update?id=1'
+    'SCRIPT_NAME' => '/blogyii/index.php'
+    'PHP_SELF' => '/blogyii/index.php'
+    'REQUEST_TIME_FLOAT' => 1456407992.55
+    'REQUEST_TIME' => 1456407992
+]
+2016-02-25 14:48:04 [::1][1][-][error][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'app' does not exist: /Applications/XAMPP/xamppfiles/htdocs/blogyii/frontend/messages/es-MX/app.php Fallback file does not exist as well: /Applications/XAMPP/xamppfiles/htdocs/blogyii/frontend/messages/es/app.php
+    in /Applications/XAMPP/xamppfiles/htdocs/blogyii/frontend/views/profile/view.php:29
+    in /Applications/XAMPP/xamppfiles/htdocs/blogyii/frontend/controllers/ProfileController.php:67
+2016-02-25 14:48:04 [::1][1][-][info][application] $_COOKIE = [
+    '_frontendCsrf' => 'ca52e23fcbbb30fe08b5b77f9bedb105bcc9c9f26e8d2d4422d77e157930c26da:2:{i:0;s:13:\"_frontendCsrf\";i:1;s:32:\"UBhzdp_Q1FRFYdhgqrMEZRduWCbyLVND\";}'
+    '_frontendSessionId' => 'je7agmrbu001jsfmk1hte2vqb7'
+    '_frontendUser' => '20c1c8af64349c60244f3d381c502be2a7ac6b7d3b4eefd01512abdc6ce54efaa:2:{i:0;s:13:\"_frontendUser\";i:1;s:46:\"[1,\"vWvW7rPF3BBY-3bCkYKt7rVP5NabjKmH\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+    '__captcha/site/captcha' => 'ltzowgc'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'REDIRECT_UNIQUE_ID' => 'Vs8GFMCoAhsAAAJ3B3EAAAAA'
+    'REDIRECT_STATUS' => '200'
+    'UNIQUE_ID' => 'Vs8GFMCoAhsAAAJ3B3EAAAAA'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.116 Safari/537.36 OPR/35.0.2066.82'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, lzma, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'es-ES,es;q=0.8'
+    'HTTP_COOKIE' => '_frontendCsrf=ca52e23fcbbb30fe08b5b77f9bedb105bcc9c9f26e8d2d4422d77e157930c26da%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_frontendCsrf%22%3Bi%3A1%3Bs%3A32%3A%22UBhzdp_Q1FRFYdhgqrMEZRduWCbyLVND%22%3B%7D; _frontendSessionId=je7agmrbu001jsfmk1hte2vqb7; _frontendUser=20c1c8af64349c60244f3d381c502be2a7ac6b7d3b4eefd01512abdc6ce54efaa%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_frontendUser%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22vWvW7rPF3BBY-3bCkYKt7rVP5NabjKmH%22%2C2592000%5D%22%3B%7D'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'DYLD_LIBRARY_PATH' => '/Applications/XAMPP/xamppfiles/lib'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.16 (Unix) OpenSSL/1.0.1p PHP/5.6.12 mod_perl/2.0.8-dev Perl/v5.16.3'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => '/Applications/XAMPP/xamppfiles/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/Applications/XAMPP/xamppfiles/htdocs'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/Applications/XAMPP/xamppfiles/htdocs/blogyii/index.php'
+    'REMOTE_PORT' => '50060'
+    'REDIRECT_URL' => '/blogyii/profile'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/blogyii/profile'
+    'SCRIPT_NAME' => '/blogyii/index.php'
+    'PHP_SELF' => '/blogyii/index.php'
+    'REQUEST_TIME_FLOAT' => 1456408084.074
+    'REQUEST_TIME' => 1456408084
+]
